@@ -98,7 +98,7 @@ document.querySelectorAll(".back-to-top").forEach((link) => {
 });
 
 const previewTranslationMap = {
-  "Quntis Amazon Storefront Preview": "Quntis Amazon Storefront 审查预览",
+  "Quntis Amazon Storefront": "Quntis Amazon Storefront 审查",
   "Quntis": "Quntis",
   "Follow": "关注",
   "Home": "首页",
@@ -461,7 +461,7 @@ const previewTranslationMap = {
 
 const previewEnglishExactMap = {
   "桌面配件": "Desk Setup Accessories",
-  "桌面配件 - Quntis Amazon Storefront Preview": "Desk Setup Accessories - Quntis Amazon Storefront Preview",
+  "桌面配件 - Quntis Amazon Storefront": "Desk Setup Accessories - Quntis Amazon Storefront",
   "这里将用于放置摄像头适配配件和其他桌面配件。当前暂无产品，后续可直接添加真实 Amazon 产品链接模块。": "This page is reserved for webcam-friendly accessories and other desk setup accessories. No products are listed yet; future products should be added through real Amazon Product Link modules.",
   "预留区域：等待真实产品链接 / Product Link Module": "Reserved area: waiting for real product links / Product Link Module.",
   "亚马逊官网要求尺寸规范和格式要求：": "Amazon official size and format requirements:",
@@ -738,10 +738,10 @@ function injectLanguageSwitcher() {
   const switcher = document.createElement("div");
   switcher.className = "language-switcher";
   switcher.setAttribute("data-no-i18n", "true");
-  switcher.setAttribute("aria-label", "Preview language switcher");
+  switcher.setAttribute("aria-label", "Language switcher");
   switcher.innerHTML = `
-    <span class="language-switcher__label">Preview</span>
-    <div class="language-switcher__options" role="group" aria-label="Preview language">
+    <span class="language-switcher__label">Language</span>
+    <div class="language-switcher__options" role="group" aria-label="Language">
       <button class="language-switcher__option" type="button" data-lang="en" aria-pressed="false">en</button>
       <button class="language-switcher__option" type="button" data-lang="zh" aria-pressed="false">中文（预览内容用）</button>
     </div>
