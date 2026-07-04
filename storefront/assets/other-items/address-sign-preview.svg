@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Illuminated address sign preview">
+  <defs>
+    <linearGradient id="addressBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e7edf1"/>
+    </linearGradient>
+    <filter id="addressShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#0a1828" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="720" height="420" rx="18" fill="url(#addressBg)"/>
+  <ellipse cx="360" cy="344" rx="220" ry="24" fill="#0a1828" opacity="0.15"/>
+  <g filter="url(#addressShadow)">
+    <rect x="120" y="98" width="480" height="222" rx="8" fill="#111"/>
+    <rect x="152" y="122" width="416" height="174" rx="2" fill="#f9fcff"/>
+    <rect x="152" y="122" width="416" height="174" rx="2" fill="#dff3ff" opacity="0.35"/>
+    <rect x="120" y="98" width="44" height="222" rx="8" fill="#050505"/>
+    <rect x="554" y="98" width="46" height="222" rx="8" fill="#050505"/>
+  </g>
+  <text x="360" y="185" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="500" fill="#33383e" letter-spacing="12">417</text>
+  <text x="360" y="234" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="23" font-weight="700" fill="#6f7780" letter-spacing="8">BRIDGEWATER</text>
+  <text x="360" y="268" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="23" font-weight="700" fill="#6f7780" letter-spacing="8">LANE</text>
+</svg>
